@@ -33,11 +33,11 @@ const Index = () => {
 
   const mathProjects = [
     {
-      title: "Topology and Algebraic Geometry",
-      description: "Investigating connections between topological invariants and algebraic structures in complex manifolds, with applications to string theory.",
-      keywords: ["Topology", "Algebraic Geometry", "Manifolds", "Cohomology", "String Theory"],
+      title: "Number of solutions of polynomial equations over finite fields (2023)",
+      description: "Short memo in which I present how Fourier analysis over Abelian groups can help establish results on the number of solutions of polynomial equations over finite fields, with an application to the Fermat-Wiles equation !",
+      keywords: ["Algebra", "Group Theory"],
       codeUrl: "https://github.com/researcher/topology-algebra",
-      pdfUrl: "https://math-journal.com/topology-paper"
+      pdfUrl: "https://arnaudob.github.io/pdfs/memo_finite_fields.pdf"
     },
     {
       title: "Number Theory and Cryptography",
