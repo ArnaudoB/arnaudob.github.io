@@ -29,7 +29,7 @@ const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl }: ProjectC
             href={codeUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="academic-button-primary flex items-center gap-2"
+            className="px-3 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700 flex items-center gap-2"
           >
             <FaGithub size={16} />
             View Code
