@@ -33,7 +33,7 @@ const Index = () => {
 
   const mathProjects = [
     {
-      title: "Number of solutions of polynomial equations over finite fields (2023)",
+      title: "Number of solutions of polynomial equations over finite fields",
       description: "Memo in which I present how Fourier analysis over Abelian groups can help establish results on the number of solutions of polynomial equations over finite fields, with an application to the Fermat-Wiles equation !",
       keywords: ["Algebra", "Group Theory"],
       pdfUrl: "https://arnaudob.github.io/pdfs/memo_finite_fields.pdf"
