@@ -4,7 +4,7 @@ import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
 import heroImage from '../assets/hero-academic.jpg';
 import profilePic from "../assets/profilepic.jpg";
-import logoX from "../assests/Logo-Epolytechnique.jpeg";
+import logoX from "../assets/Logo-Epolytechnique.jpeg";
 
 const Index = () => {
   const mlProjects = [
@@ -92,11 +92,17 @@ const Index = () => {
               className="w-16 h-16 rounded-lg border border-white/30 mb-6 object-contain bg-white"
             />
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">Baptiste Arnaudo</h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Advancing the frontiers of machine learning and mathematical research through innovative algorithms and theoretical insights.
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">
+              Baptiste Arnaudo
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
+              I am a third-year student at École Polytechnique with a passion for problem-solving
+              and machine learning research, particularly theoretical topics such as
+              Statistical Learning Theory, Geometric and Topological Deep Learning, and
+              Training Dynamics. I am currently seeking a six-month research internship
+              starting in February 2026.
+            </p>
+            <div className="flex flex-wrap justify-center gap-4">
             <a href="#ml-research" className="academic-button-primary bg-white/20 border border-white/30 hover:bg-white/30">
               View Research
             </a>
