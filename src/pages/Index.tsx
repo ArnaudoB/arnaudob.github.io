@@ -3,7 +3,8 @@ import Navigation from '../components/Navigation';
 import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
 import heroImage from '../assets/hero-academic.jpg';
-import profilePic from "../assets/profilepic.jpg"
+import profilePic from "../assets/profilepic.jpg";
+import logoX from "../assests/Logo-Epolytechnique.jpeg";
 
 const Index = () => {
   const mlProjects = [
@@ -85,9 +86,11 @@ const Index = () => {
               alt="Baptiste Arnaudo"
               className="w-32 h-32 rounded-full border-2 border-white/30 mb-4 object-cover"
             />
-            <div className="w-16 h-16 bg-white/20 border border-white/30 rounded-lg flex items-center justify-center mb-6">
-              <span className="text-white/60 text-xs">Logo</span>
-            </div>
+            <img
+              src={logoX}
+              alt="École Polytechnique"
+              className="w-16 h-16 rounded-lg border border-white/30 mb-6 object-contain bg-white"
+            />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">Baptiste Arnaudo</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
