@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
 import heroImage from '../assets/hero-academic.jpg';
+import profilePic from "./assets/profilepic.jpg"
 
 const Index = () => {
   const mlProjects = [
@@ -79,14 +80,16 @@ const Index = () => {
       >
         <div className="container-width text-center text-white z-10">
           <div className="flex flex-col items-center mb-8">
-            <div className="w-32 h-32 rounded-full bg-white/20 border-2 border-white/30 mb-4 flex items-center justify-center">
-              <span className="text-white/60 text-sm">Your Photo</span>
-            </div>
+            <img
+              src={profilePic}
+              alt="Baptiste Arnaudo"
+              className="w-32 h-32 rounded-full border-2 border-white/30 mb-4 object-cover"
+            />
             <div className="w-16 h-16 bg-white/20 border border-white/30 rounded-lg flex items-center justify-center mb-6">
               <span className="text-white/60 text-xs">Logo</span>
             </div>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">Dr. Research Scholar</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">Baptiste Arnaudo</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
             Advancing the frontiers of machine learning and mathematical research through innovative algorithms and theoretical insights.
           </p>
