@@ -54,11 +54,10 @@ const Index = () => {
       pdfUrl: "https://arnaudob.github.io/pdfs/logic_course.pdf"
     },
     {
-      title: "Advanced Mathematics for Computer Science",
-      description: "Graduate-level course in linear algebra, calculus, and discrete mathematics with applications to algorithm design and complexity theory.",
-      keywords: ["Linear Algebra", "Calculus", "Discrete Math", "Algorithms", "Complexity Theory"],
-      codeUrl: "https://github.com/researcher/math-cs-course",
-      pdfUrl: "https://university.edu/advanced-math-syllabus.pdf"
+      title: "Exercizes on the Symmetric Group",
+      description: "Collection of exercises on the Symmetric Group (with solutions), intended to help students prepare for the Ecole Polytechnique entrance mathematics exam.",
+      keywords: ["Algebra", "Symmetric Group"],
+      pdfUrl: "https://arnaudob.github.io/pdfs/symmetric_group.pdf"
     }
   ];
 
