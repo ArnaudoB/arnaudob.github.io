@@ -1,4 +1,5 @@
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink} from 'lucide-react';
+import { FaGithub } from "react-icons/fa";
 
 interface ProjectCardProps {
   title: string;
@@ -30,7 +31,7 @@ const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl }: ProjectC
             rel="noopener noreferrer"
             className="academic-button-primary flex items-center gap-2"
           >
-            <Github size={16} />
+            <FaGithub size={16} />
             View Code
           </a>
         )}
