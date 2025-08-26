@@ -34,27 +34,24 @@ const Index = () => {
   const mathProjects = [
     {
       title: "Number of solutions of polynomial equations over finite fields (2023)",
-      description: "Short memo in which I present how Fourier analysis over Abelian groups can help establish results on the number of solutions of polynomial equations over finite fields, with an application to the Fermat-Wiles equation !",
+      description: "Memo in which I present how Fourier analysis over Abelian groups can help establish results on the number of solutions of polynomial equations over finite fields, with an application to the Fermat-Wiles equation !",
       keywords: ["Algebra", "Group Theory"],
-      codeUrl: "https://github.com/researcher/topology-algebra",
       pdfUrl: "https://arnaudob.github.io/pdfs/memo_finite_fields.pdf"
     },
     {
-      title: "Number Theory and Cryptography",
-      description: "Exploring elliptic curves and their applications in modern cryptographic protocols, including post-quantum security analysis.",
-      keywords: ["Number Theory", "Elliptic Curves", "Cryptography", "Post-Quantum", "Security"],
-      codeUrl: "https://github.com/researcher/crypto-curves",
-      pdfUrl: "https://crypto-conference.com/number-theory-paper"
+      title: "Solving PDEs with Markov Chains",
+      description: "Short notebook in which I explain (and prove) how Markov Chains can help approximate solutions to certain PDEs, with an application to the Laplace equation and a more complex (Helmholtz-like) equation as well",
+      keywords: ["Markov Chains", "PDEs", "Python", "NumPy"],
+      codeUrl: "https://github.com/ArnaudoB/Small-Project-Solving-PDEs-with-markov-chains",
     }
   ];
 
   const teachingExperience = [
     {
-      title: "Machine Learning Fundamentals",
-      description: "Comprehensive course covering supervised and unsupervised learning, neural networks, and practical implementation using Python and scikit-learn.",
-      keywords: ["Machine Learning", "Python", "Scikit-learn", "Neural Networks", "Data Science"],
-      codeUrl: "https://github.com/researcher/ml-course",
-      pdfUrl: "https://university.edu/ml-syllabus.pdf"
+      title: "Logic and reasoning methods course for incoming preparatory classes students",
+      description: "Comprehensive logic and reasoning methods course with 50 exercizes and solutions I wrote to help incoming preparatory classes students",
+      keywords: ["Logic", "Reasoning methods"],
+      pdfUrl: "https://arnaudob.github.io/pdfs/logic_course.pdf"
     },
     {
       title: "Advanced Mathematics for Computer Science",
@@ -100,7 +97,7 @@ const Index = () => {
               and machine learning research, particularly theoretical topics such as
               Statistical Learning Theory, Geometric and Topological Deep Learning, and
               Training Dynamics. I am also seeking a six-month research internship
-              starting in February 2026 {"\u263A"}
+              starting in February 2026 !
             </p>
             <div className="flex flex-wrap justify-center gap-4">
             <a href="#ml-research" className="academic-button-primary bg-white/20 border border-white/30 hover:bg-white/30">
