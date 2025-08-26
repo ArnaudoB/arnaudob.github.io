@@ -3,7 +3,7 @@ import Navigation from '../components/Navigation';
 import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
 import heroImage from '../assets/hero-academic.jpg';
-import profilePic from "./assets/profilepic.jpg"
+import profilePic from "../assets/profilepic.jpg"
 
 const Index = () => {
   const mlProjects = [
