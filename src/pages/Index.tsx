@@ -9,11 +9,10 @@ import logoX from "../assets/Logo-Epolytechnique.jpeg";
 const Index = () => {
   const mlProjects = [
     {
-      title: "Deep Learning for Computer Vision",
-      description: "Advanced neural network architectures for image classification and object detection, achieving state-of-the-art performance on benchmark datasets.",
-      keywords: ["Deep Learning", "Computer Vision", "PyTorch", "CNNs", "Transfer Learning"],
-      codeUrl: "https://github.com/researcher/dl-vision",
-      pdfUrl: "https://arxiv.org/paper-link"
+      title: "Generative Larvae",
+      description: "A year-long research project in collaboration with the Institut Pasteur, where my team and I developed Transformer and 3D CNN models from scratch to simulate and analyze the trajectories of genetically modified Drosophila larvae, quantifying behavioral differences relative to wild-type larvae.",
+      keywords: ["Deep Learning", "Transformers", "3D CNN", "PyTorch"],
+      pdfUrl: "https://arnaudob.github.io/pdfs/psc_eng.pdf"
     },
     {
       title: "Natural Language Processing with Transformers",
@@ -110,7 +109,7 @@ const Index = () => {
       </section>
 
       {/* ML Research Section */}
-      <Section id="ml-research" title="Machine Learning Research" className="bg-gradient-to-b from-muted to-background">
+      <Section id="ml-research" title="Machine Learning Research and Projects" className="bg-gradient-to-b from-muted to-background">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {mlProjects.map((project, index) => (
             <ProjectCard key={index} {...project} />
