@@ -15,11 +15,17 @@ const Index = () => {
       pdfUrl: "https://arnaudob.github.io/pdfs/psc_eng.pdf"
     },
     {
-      title: "Natural Language Processing with Transformers",
-      description: "Novel attention mechanisms for improved language understanding and generation tasks, with applications in sentiment analysis and machine translation.",
-      keywords: ["NLP", "Transformers", "BERT", "Attention", "Language Models"],
-      codeUrl: "https://github.com/researcher/nlp-transformers",
-      pdfUrl: "https://paper-repository.com/nlp-paper"
+      title: "ResQwen : A Multimodal Model for Predicting YouTube Video Engagement",
+      description: "School project tackling the prediction of YouTube engagement for short Bengali films. ResQwen combines a ResNet-50 for thumbnail analysis, a Qwen3-0.6B language model for title encoding, and auxiliary features (channel metadata, upload time) into a unified multimodal architecture. The work explores ensemble strategies and custom loss functions tailored to view-count prediction.",
+      keywords: [
+      "Multimodal Learning",
+      "ResNet-50",
+      "Qwen3-0.6B",
+      "Deep Learning",
+      "Fine-tuning"
+      ],
+      codeUrl: "https://github.com/ArnaudoB/Predict-YouTube-Views",
+      pdfUrl: "https://arnaudob.github.io/pdfs/ResQwen.pdf"
     },
     {
       title: "Reinforcement Learning for Robotics",
