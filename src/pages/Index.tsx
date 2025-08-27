@@ -16,7 +16,7 @@ const Index = () => {
     },
     {
       title: "ResQwen : A Multimodal Model for Predicting YouTube Video Engagement",
-      description: "School project tackling the prediction of YouTube engagement for short Bengali films. ResQwen combines a ResNet-50 for thumbnail analysis, a Qwen3-0.6B language model for title encoding, and auxiliary features (channel metadata, upload time) into a unified multimodal architecture. The work explores ensemble strategies and custom loss functions tailored to view-count prediction.",
+      description: "School project tackling the prediction of YouTube engagement for short Bengali films. ResQwen combines a ResNet-50 for thumbnail analysis, a Qwen3-0.6B language model for title encoding, and auxiliary features (channel metadata, upload time) into a unified multimodal architecture. The work also explores custom loss functions tailored to view-count prediction as well..!",
       keywords: [
       "Multimodal Learning",
       "ResNet-50",
@@ -26,13 +26,6 @@ const Index = () => {
       ],
       codeUrl: "https://github.com/ArnaudoB/Predict-YouTube-Views",
       pdfUrl: "https://arnaudob.github.io/pdfs/ResQwen.pdf"
-    },
-    {
-      title: "Reinforcement Learning for Robotics",
-      description: "End-to-end learning algorithms for robotic manipulation tasks using deep reinforcement learning and sim-to-real transfer.",
-      keywords: ["Reinforcement Learning", "Robotics", "Sim-to-Real", "Policy Gradient", "PPO"],
-      codeUrl: "https://github.com/researcher/rl-robotics",
-      pdfUrl: "https://robotics-journal.com/rl-paper"
     }
   ];
 
