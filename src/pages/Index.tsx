@@ -67,7 +67,7 @@ const Index = () => {
       {/* Hero/About Section */}
       <section
         id="about"
-        className="relative min-h-screen flex items-center justify-center overflow-hidden"
+        className="relative min-h-[calc(100vh-4rem)] pt-20"
         style={{
           backgroundImage: `linear-gradient(rgba(37, 99, 235, 0.8), rgba(59, 130, 246, 0.6)), url(${heroImage})`,
           backgroundSize: 'cover',
@@ -79,12 +79,12 @@ const Index = () => {
             <img
               src={profilePic}
               alt="Baptiste Arnaudo"
-              className="w-32 h-32 rounded-full border-2 border-white/30 mb-4 object-cover"
+              className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-full border-2 border-white/30 mb-4 object-cover"
             />
             <img
               src={logoX}
               alt="École Polytechnique"
-              className="w-16 h-16 rounded-lg border border-white/30 mb-6 object-contain bg-white"
+              className="w-20 h-20 rounded-lg border border-white/30 mb-6 object-contain bg-white"
             />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6 font-playfair">
