@@ -159,25 +159,37 @@ const Index = () => {
 
 
       {/* Hobbies Section */}
-      <Section id="hobbies" title="Hobbies & Interests">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="academic-card text-center">
-            <h3 className="project-title">Philosophy (2024 - 2025)</h3>
-            <p className="text-muted-foreground">
-              Completed a Bachelor's degree in Philosophy with honors, pursued in parallel with my scientific studies out of a genuine passion for knowledge.
-            </p>
-          </div>
-
-          <div className="academic-card text-center">
-            <h3 className="project-title">Basket-Ball</h3>
-            <p className="text-muted-foreground">Competitive chess player with a rating of 2100+ and active in local tournaments.</p>
-          </div>
-          <div className="academic-card text-center">
-            <h3 className="project-title">Photography</h3>
-            <p className="text-muted-foreground">Landscape and abstract photography, exploring the intersection of mathematics and visual art.</p>
-          </div>
+    <Section id="hobbies" title="Hobbies & Interests">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <div className="academic-card text-center">
+          <h3 className="project-title">Philosophy (2024 - 2025)</h3>
+          <p className="text-muted-foreground">
+            Earned a Bachelor's degree in Philosophy with honors, pursued in parallel with my scientific studies out of a deep passion for knowledge.
+          </p>
         </div>
-      </Section>
+
+        <div className="academic-card text-center">
+          <h3 className="project-title">Basketball & Sports</h3>
+          <p className="text-muted-foreground">
+            Starting player on Ecole Polytechnique's basketball team. I also maintain a daily workout routine, as I believe regular exercise is essential for both physical and mental well-being.
+          </p>
+        </div>
+
+        <div className="academic-card text-center">
+          <h3 className="project-title">Language Learning</h3>
+          <p className="text-muted-foreground">
+            I developed a strong interest in languages at the end of 2024, which led me to start studying Modern Standard Arabic independently (though with some struggle..!)
+            <br /><br />
+            أبحث عن شخص أتحدث معه بالعربية، فلا تتردد في التواصل معي إن أردت
+            <br /><br />
+            I also resumed studying Italian recently to reconnect with my old Italian roots...
+          </p>
+        </div>
+
+      </div>
+    </Section>
+
 
       {/* Education Section */}
       <Section id="education" title="Education" className="bg-gradient-to-b from-muted to-background">
