@@ -198,7 +198,7 @@ const Index = () => {
         
         {/* Preparatory Classes */}
         <div className="academic-card">
-          <h3 className="project-title">Preparatory Classes (MPSI → MP*) (2021 – 2023)</h3>
+          <h3 className="project-title">Preparatory Classes (MPSI → MP*) (2021 - 2023)</h3>
           <ul className="text-muted-foreground space-y-2">
 
             <li className="font-semibold text-black">Mathematics</li>
@@ -274,7 +274,7 @@ const Index = () => {
             Download my CV including research and professional experience.
           </p>
           <a
-          href="/cv-academic.pdf"
+          href="/pdfs/CV.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-5 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 inline-flex items-center gap-3"
@@ -292,7 +292,7 @@ const Index = () => {
             <div className="academic-card">
               <h3 className="project-title">Get in Touch</h3>
               <p className="text-muted-foreground mb-6">
-                I'm always interested in discussing research collaborations, academic opportunities, or innovative projects.
+                I'm always interested in discussing research collaborations, academic opportunities, or innovative projects !
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
@@ -305,7 +305,7 @@ const Index = () => {
             <div className="academic-card">
               <h3 className="project-title">Academic Profiles</h3>
               <p className="text-muted-foreground mb-6">
-                Connect with me on academic and professional platforms.
+                Connect with me !
               </p>
               <div className="flex flex-wrap gap-4">
                 <a href="https://github.com/ArnaudoB" className="academic-button-secondary flex items-center gap-2">
