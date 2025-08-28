@@ -270,17 +270,17 @@ const Index = () => {
       <Section id="cv" title="Curriculum Vitae">
         <div className="text-center max-w-2xl mx-auto">
           <p className="text-muted-foreground mb-8 text-lg">
-            Download my complete academic CV including publications, presentations, and detailed research experience.
+            Download my complete academic CV including research and professional experience.
           </p>
           <a
-            href="/cv-academic.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="academic-button-primary inline-flex items-center gap-3"
-          >
-            <Download size={20} />
-            Download CV (PDF)
-          </a>
+          href="/cv-academic.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-5 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 inline-flex items-center gap-3"
+        >
+          <Download size={20} />
+          Download CV (PDF)
+        </a>
         </div>
       </Section>
 
