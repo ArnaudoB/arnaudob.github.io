@@ -27,7 +27,21 @@ const Index = () => {
       ],
       codeUrl: "https://github.com/ArnaudoB/Predict-YouTube-Views",
       pdfUrl: "https://arnaudob.github.io/pdfs/ResQwen.pdf"
-    }
+    },
+    {
+      title: "ML Engineer Intern at GE Healthcare (06/2025 - 09/2025)",
+      description: "I worked on breast MRI analysis as part of GE's BreView software. During the internship, I trained state-of-the-art models (nnU-Netv2, nnDetection) to segment breasts and detect lesions, and designed algorithms to identify the chest wall and nipples from segmentation masks. I also had the chance to bring everything together into a highly optimized C++ pipeline ready for production.",
+      keywords: [
+        "Medical Imaging",
+        "Deep Learning",
+        "Image Processing",
+        "Mathematical Morphology",
+        "nnU-Netv2",
+        "nnDetection",
+        "C++"
+  ]
+}
+
   ];
 
   const mathProjects = [
