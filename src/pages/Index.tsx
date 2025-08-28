@@ -47,12 +47,12 @@ const Index = () => {
   const teachingExperience = [
     {
       title: "Logic and reasoning methods course for incoming preparatory classes students",
-      description: "Comprehensive logic and reasoning methods course with 50 exercizes and solutions I wrote to help incoming preparatory classes students",
+      description: "Comprehensive logic and reasoning methods course with 50 exercises and solutions I wrote to help incoming preparatory classes students",
       keywords: ["Logic", "Reasoning methods"],
       pdfUrl: "https://arnaudob.github.io/pdfs/logic_course.pdf"
     },
     {
-      title: "Exercizes on the Symmetric Group",
+      title: "Exercises on the Symmetric Group",
       description: "Collection of exercises on the Symmetric Group (with solutions), intended to help students prepare for the Ecole Polytechnique entrance mathematics exam.",
       keywords: ["Algebra", "Symmetric Group"],
       pdfUrl: "https://arnaudob.github.io/pdfs/symmetric_group.pdf"
@@ -135,17 +135,17 @@ const Index = () => {
       </Section>
 
       {/* Extracurricular activities */}
+      # TODO : add links to the websites, buttons that point to these links, and put extracurricular on top of the website
       <Section id="extracurricular" title="Extracurricular Activities">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="academic-card text-center">
-          <h3 className="project-title">President of Binet IA (2024 – 2025)</h3>
+          <h3 className="project-title">President of Binet IA (2024 - 2025)</h3>
           <p className="text-muted-foreground">
             President of Binet IA, Ecole Polytechnique’s AI association, where I lead a team in organizing conferences, workshops, and hackathons.
           </p>
         </div>
-
         <div className="academic-card text-center">
-          <h3 className="project-title">Executive Board Member of Unaite (2024 – 2025)</h3>
+          <h3 className="project-title">Executive Board Member of Unaite (2024 - 2025)</h3>
           <p className="text-muted-foreground">
             Executive board member of Unaite, France’s leading AI confederation uniting the AI associations of top schools (Ecole Polytechnique, CentraleSupélec, HEC, Télécom Paris, La Sorbonne, and others). We organized hackathons, research papers contests, workshops, conferences, and launched <em>Ignaite</em>, an AI start-up accelerator, which we presented at the French National Assembly with sponsors from Google, Anthropic, and more to foster student and early-career innovation in AI.
           </p>
@@ -162,11 +162,14 @@ const Index = () => {
       <Section id="hobbies" title="Hobbies & Interests">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="academic-card text-center">
-            <h3 className="project-title">Classical Music</h3>
-            <p className="text-muted-foreground">Piano performance and composition, with a focus on Bach and contemporary classical pieces.</p>
+            <h3 className="project-title">Philosophy (2024 - 2025)</h3>
+            <p className="text-muted-foreground">
+              Completed a Bachelor's degree in Philosophy with honors, pursued in parallel with my scientific studies out of a genuine passion for knowledge.
+            </p>
           </div>
+
           <div className="academic-card text-center">
-            <h3 className="project-title">Chess</h3>
+            <h3 className="project-title">Basket-Ball</h3>
             <p className="text-muted-foreground">Competitive chess player with a rating of 2100+ and active in local tournaments.</p>
           </div>
           <div className="academic-card text-center">
