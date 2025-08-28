@@ -91,7 +91,7 @@ const Index = () => {
               Baptiste Arnaudo
             </h1>
             <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed">
-              I am a third-year student at École Polytechnique with a passion for problem-solving
+              I am a third-year (master's) student at Ecole Polytechnique with a passion for problem-solving
               and machine learning research, particularly theoretical topics such as
               Statistical Learning Theory, Geometric and Topological Deep Learning, and
               Training Dynamics. I am also seeking a six-month research internship
@@ -142,7 +142,7 @@ const Index = () => {
           <div className="academic-card text-center">
             <h3 className="project-title">President of Binet IA (2024 - 2025)</h3>
             <p className="text-muted-foreground">
-              President of Binet IA, Ecole Polytechnique’s AI association, where I lead a team in organizing conferences, workshops, and hackathons.
+              President of Binet IA, Ecole Polytechnique's AI association, where I lead a team in organizing conferences, workshops, and hackathons.
             </p>
           </div>
 
