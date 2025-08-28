@@ -10,6 +10,7 @@ const Navigation = () => {
     { id: 'ml-research', label: 'ML Research' },
     { id: 'math-projects', label: 'Mathematical Projects' },
     { id: 'teaching', label: 'Teaching' },
+    { label: "Extracurricular", href: "#extracurricular" },
     { id: 'hobbies', label: 'Hobbies' },
     { id: 'education', label: 'Education' },
     { id: 'cv', label: 'CV' },
@@ -46,12 +47,6 @@ const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container-width">
         <div className="flex items-center justify-between h-16">
-          <button
-            onClick={() => scrollToSection('about')}
-            className="text-xl font-bold text-primary font-playfair hover:text-primary-light transition-[var(--transition-smooth)]"
-          >
-            Research Portfolio
-          </button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
