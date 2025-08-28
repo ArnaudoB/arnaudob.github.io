@@ -191,41 +191,80 @@ const Index = () => {
     </Section>
 
 
-      {/* Education Section */}
-      <Section id="education" title="Education" className="bg-gradient-to-b from-muted to-background">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div className="academic-card">
-            <h3 className="project-title">Graduate Studies</h3>
-            <ul className="text-muted-foreground space-y-2">
-              <li>• Advanced Machine Learning Theory</li>
-              <li>• Computational Complexity</li>
-              <li>• Modern Algebra</li>
-              <li>• Real and Complex Analysis</li>
-              <li>• Differential Geometry</li>
-            </ul>
-          </div>
-          <div className="academic-card">
-            <h3 className="project-title">Research Methods</h3>
-            <ul className="text-muted-foreground space-y-2">
-              <li>• Statistical Learning Theory</li>
-              <li>• Optimization Methods</li>
-              <li>• Information Theory</li>
-              <li>• Probability Theory</li>
-              <li>• Measure Theory</li>
-            </ul>
-          </div>
-          <div className="academic-card">
-            <h3 className="project-title">Applied Mathematics</h3>
-            <ul className="text-muted-foreground space-y-2">
-              <li>• Numerical Methods</li>
-              <li>• Partial Differential Equations</li>
-              <li>• Mathematical Modeling</li>
-              <li>• Linear Programming</li>
-              <li>• Graph Theory</li>
-            </ul>
-          </div>
+          {/* Education Section */}
+    <Section id="education" title="Education" className="bg-gradient-to-b from-muted to-background">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        {/* Preparatory Classes */}
+        <div className="academic-card">
+          <h3 className="project-title">Preparatory Classes (MPSI → MP*) (2021 – 2023)</h3>
+          <ul className="text-muted-foreground space-y-2">
+
+            <li className="font-semibold text-black">Mathematics</li>
+            <li>• Linear Algebra and Multilinear Algebra</li>
+            <li>• Real Analysis (Asymptotics, Differential Calculus, Integration...)</li>
+            <li>• Probability Theory and Statistics</li>
+            <li>• Differential Equations (ODEs and PDEs)</li>
+            <li>• Group, Ring, and Field Theory</li>
+            <li>• Numerical Methods and Scientific Computing</li>
+
+            <li className="font-semibold text-blue-800 mt-4">Physics</li>
+            <li>• Classical Mechanics (Newtonian)</li>
+            <li>• Quantum and Statistical Physics</li>
+            <li>• Thermodynamics</li>
+            <li>• Electromagnetism and Optics</li>
+
+            <li className="font-semibold text-red-800 mt-4">Computer Science</li>
+            <li>• Data Structures and Algorithms (Python and OCaml)</li>
+            <li>• Automata and Complexity Theory</li>
+          </ul>
         </div>
-      </Section>
+
+        {/* Ecole Polytechnique (Years 1 & 2) */}
+        <div className="academic-card">
+          <h3 className="project-title">Ecole Polytechnique (Years 1 & 2)</h3>
+          <ul className="text-muted-foreground space-y-2">
+
+            <li className="font-semibold text-black">Mathematics</li>
+            <li>• Measure Theory</li>
+            <li>• Statistics (Estimators, Introduction to Statistical Learning Theory...)</li>
+            <li>• Markov Chains and Martingales</li>
+            <li>• Convex Optimization and Control Theory</li>
+            <li>• Complex Analysis and Differential Calculus</li>
+
+            <li className="font-semibold text-blue-800 mt-4">Physics</li>
+            <li>• Advanced Quantum Mechanics</li>
+
+            <li className="font-semibold text-red-800 mt-4">Computer Science</li>
+            <li>• Object-Oriented Programming in Java</li>
+            <li>• Advanced Data Structures and Algorithms</li>
+            <li>• Algorithms for Data Science</li>
+          </ul>
+        </div>
+
+        {/* Ecole Polytechnique (Year 3) */}
+        <div className="academic-card">
+          <h3 className="project-title">Ecole Polytechnique (Year 3)</h3>
+          <ul className="text-muted-foreground space-y-2">
+
+            <li className="font-semibold text-black">Mathematics</li>
+            <li>• Research Project (6 months)</li>
+            <li>• Probability Theory for ML (Monte-Carlo and Generative Models)</li>
+            <li>• Statistical Learning Theory</li>
+            <li>• Statistical Processes</li>
+            <li>• Algebraic Topology</li>
+            <li>• Riemannian Geometry</li>
+            <li>• Random Matrix Theory</li>
+
+            <li className="font-semibold text-red-800 mt-4">Computer Science</li>
+            <li>• Graph Deep Learning</li>
+            <li>• Multimodal Generative AI</li>
+          </ul>
+        </div>
+
+      </div>
+    </Section>
+
 
       {/* CV Section */}
       <Section id="cv" title="Curriculum Vitae">
