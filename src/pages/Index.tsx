@@ -1,4 +1,5 @@
-import { Mail, MapPin, Phone, Download, Github, Linkedin, ExternalLink } from 'lucide-react';
+import { Mail, Download, ExternalLink } from 'lucide-react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Navigation from '../components/Navigation';
 import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
@@ -270,7 +271,7 @@ const Index = () => {
       <Section id="cv" title="Curriculum Vitae">
         <div className="text-center max-w-2xl mx-auto">
           <p className="text-muted-foreground mb-8 text-lg">
-            Download my complete academic CV including research and professional experience.
+            Download my CV including research and professional experience.
           </p>
           <a
           href="/cv-academic.pdf"
@@ -296,15 +297,7 @@ const Index = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail size={20} className="text-primary" />
-                  <span>researcher@university.edu</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <Phone size={20} className="text-primary" />
-                  <span>+1 (555) 123-4567</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <MapPin size={20} className="text-primary" />
-                  <span>Research University, Department of Computer Science</span>
+                  <span>baptiste.arnaudo@polytechnique.edu</span>
                 </div>
               </div>
             </div>
@@ -315,17 +308,13 @@ const Index = () => {
                 Connect with me on academic and professional platforms.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a href="https://github.com/researcher" className="academic-button-secondary flex items-center gap-2">
-                  <Github size={16} />
+                <a href="https://github.com/ArnaudoB" className="academic-button-secondary flex items-center gap-2">
+                  <FaGithub size={16} />
                   GitHub
                 </a>
-                <a href="https://linkedin.com/in/researcher" className="academic-button-secondary flex items-center gap-2">
-                  <Linkedin size={16} />
+                <a href="https://linkedin.com/in/baptiste-arnaudo/" className="academic-button-secondary flex items-center gap-2">
+                  <FaLinkedin size={16} />
                   LinkedIn
-                </a>
-                <a href="https://scholar.google.com/citations?user=researcher" className="academic-button-secondary flex items-center gap-2">
-                  <ExternalLink size={16} />
-                  Google Scholar
                 </a>
               </div>
             </div>
