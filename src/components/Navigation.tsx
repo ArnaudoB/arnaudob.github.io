@@ -46,10 +46,10 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 bg-background/95 backdrop-blur-sm border-b border-border z-50">
       <div className="container-width">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-center h-16">
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden md:flex space-x-8 mx-auto">
             {navItems.map((item) => (
               <button
                 key={item.id}
