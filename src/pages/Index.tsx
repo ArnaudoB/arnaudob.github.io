@@ -172,7 +172,7 @@ const Index = () => {
         <div className="academic-card text-center">
           <h3 className="project-title">Basketball & Sports</h3>
           <p className="text-muted-foreground">
-            Starting player on Ecole Polytechnique's basketball team. I also maintain a daily workout routine, as I believe regular exercise is essential for both physical and mental well-being.
+            I play center (even though deep down I know I'm really a small forward at heart) for my school's basketball team, competing against other schools from across the region! I also maintain a daily workout routine (lifting, calisthenics, running…) as I believe regular exercise is essential for both physical and mental well-being.
           </p>
         </div>
 
