@@ -6,6 +6,7 @@ import ProjectCard from '../components/ProjectCard';
 import heroImage from '../assets/hero-academic.jpg';
 import profilePic from "../assets/profilepic.jpg";
 import logoX from "../assets/Logo-Epolytechnique.jpeg";
+import pasteurLogo from "../assets/logos/pasteur.png";
 
 const Index = () => {
   const mlProjects = [
@@ -14,7 +15,7 @@ const Index = () => {
       description: "A year-long research project in collaboration with the Institut Pasteur, where my team and I developed Transformer and 3D CNN models from scratch to simulate and analyze the trajectories of genetically modified Drosophila larvae, quantifying behavioral differences relative to wild-type larvae.",
       keywords: ["Deep Learning", "Transformers", "3D CNN", "PyTorch"],
       pdfUrl: "https://arnaudob.github.io/pdfs/psc_eng.pdf",
-      logo: "../assets/logo_pasteur.jpg"
+      logo: pasteurLogo
     },
     {
       title: "ResQwen : A Multimodal Model for Predicting YouTube Video Engagement",
