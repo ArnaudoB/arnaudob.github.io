@@ -7,7 +7,7 @@ interface ProjectCardProps {
   keywords: string[];
   codeUrl?: string;
   pdfUrl?: string;
-  logo?: string;   // 👈 add logo field
+  logo?: string; 
 }
 
 const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl, logo }: ProjectCardProps) => {
@@ -18,7 +18,7 @@ const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl, logo }: Pr
           <img 
             src={logo} 
             alt={`${title} logo`} 
-            className="w-10 h-10 object-contain" // adjust size as you like
+            className="w-15 h-15 object-contain"
           />
         )}
         <h3 className="project-title">{title}</h3>
