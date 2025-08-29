@@ -8,6 +8,7 @@ import profilePic from "../assets/profilepic.jpg";
 import logoX from "../assets/Logo-Epolytechnique.jpeg";
 import pasteurLogo from "../assets/logo_pasteur.jpg";
 import geLogo from "../assets/logo_ge.png";
+import ensLogo from "../assets/logo_ens.jpg";
 
 const Index = () => {
   const mlProjects = [
@@ -51,9 +52,10 @@ const Index = () => {
   const mathProjects = [
     {
       title: "Number of solutions of polynomial equations over finite fields",
-      description: "Memo in which I present how Fourier analysis over Abelian groups can help establish results on the number of solutions of polynomial equations over finite fields, with an application to the Fermat-Wiles equation !",
+      description: "Memo I wrote for the Ecole Normale Superieure entrance exam in which I present how Fourier analysis over Abelian groups can help establish results on the number of solutions of polynomial equations over finite fields, with an application to the Fermat-Wiles equation !",
       keywords: ["Algebra", "Group Theory"],
-      pdfUrl: "https://arnaudob.github.io/pdfs/memo_finite_fields.pdf"
+      pdfUrl: "https://arnaudob.github.io/pdfs/memo_finite_fields.pdf",
+      logo: ensLogo
     },
     {
       title: "Solving PDEs with Markov Chains",
