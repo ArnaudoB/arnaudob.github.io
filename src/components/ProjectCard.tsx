@@ -7,12 +7,23 @@ interface ProjectCardProps {
   keywords: string[];
   codeUrl?: string;
   pdfUrl?: string;
+  logo?: string;   // 👈 add logo field
 }
 
-const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl, logo }: ProjectCardProps) => {
   return (
     <div className="academic-card group">
-      <h3 className="project-title">{title}</h3>
+      <div className="flex items-center gap-3 mb-2">
+        {logo && (
+          <img 
+            src={logo} 
+            alt={`${title} logo`} 
+            className="w-10 h-10 object-contain" // adjust size as you like
+          />
+        )}
+        <h3 className="project-title">{title}</h3>
+      </div>
+      
       <p className="text-muted-foreground mb-4 leading-relaxed">{description}</p>
       
       <div className="flex flex-wrap gap-2 mb-6">

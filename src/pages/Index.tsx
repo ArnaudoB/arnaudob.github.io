@@ -13,7 +13,8 @@ const Index = () => {
       title: "Generative Larvae",
       description: "A year-long research project in collaboration with the Institut Pasteur, where my team and I developed Transformer and 3D CNN models from scratch to simulate and analyze the trajectories of genetically modified Drosophila larvae, quantifying behavioral differences relative to wild-type larvae.",
       keywords: ["Deep Learning", "Transformers", "3D CNN", "PyTorch"],
-      pdfUrl: "https://arnaudob.github.io/pdfs/psc_eng.pdf"
+      pdfUrl: "https://arnaudob.github.io/pdfs/psc_eng.pdf",
+      logo: "../assets/logo_pasteur.jpg"
     },
     {
       title: "ResQwen : A Multimodal Model for Predicting YouTube Video Engagement",
@@ -97,7 +98,7 @@ const Index = () => {
             />
             <img
               src={logoX}
-              alt="École Polytechnique"
+              alt="Ecole Polytechnique"
               className="w-20 h-20 rounded-lg border border-white/30 mb-6 object-contain bg-white"
             />
           </div>
