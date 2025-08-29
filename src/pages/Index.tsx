@@ -6,7 +6,7 @@ import ProjectCard from '../components/ProjectCard';
 import heroImage from '../assets/hero-academic.jpg';
 import profilePic from "../assets/profilepic.jpg";
 import logoX from "../assets/Logo-Epolytechnique.jpeg";
-import pasteurLogo from "../assets/logos/pasteur.png";
+import pasteurLogo from "../assets/logo_pasteur.png";
 
 const Index = () => {
   const mlProjects = [
