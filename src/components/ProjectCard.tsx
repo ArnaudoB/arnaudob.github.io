@@ -22,7 +22,7 @@ const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl, logo }: Pr
           <img 
             src={logo} 
             alt={`${title} logo`} 
-            className="w-12 h-12 object-contain" 
+            className="w-13 h-13 object-contain" 
           />
         </div>
       )}
