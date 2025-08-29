@@ -7,6 +7,7 @@ import heroImage from '../assets/hero-academic.jpg';
 import profilePic from "../assets/profilepic.jpg";
 import logoX from "../assets/Logo-Epolytechnique.jpeg";
 import pasteurLogo from "../assets/logo_pasteur.jpg";
+import geLogo from "../assets/logo_ge.png";
 
 const Index = () => {
   const mlProjects = [
@@ -41,7 +42,8 @@ const Index = () => {
         "nnU-Netv2",
         "nnDetection",
         "C++"
-  ]
+      ],
+      logo: geLogo
 }
 
   ];
