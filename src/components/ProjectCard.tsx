@@ -1,4 +1,4 @@
-import { ExternalLink} from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { FaGithub } from "react-icons/fa";
 
 interface ProjectCardProps {
@@ -7,26 +7,29 @@ interface ProjectCardProps {
   keywords: string[];
   codeUrl?: string;
   pdfUrl?: string;
-  logo?: string; 
+  logo?: string;
 }
 
 const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl, logo }: ProjectCardProps) => {
   return (
-    <div className="academic-card group">
-      <div className="flex items-center gap-3 mb-2">
-        {logo && (
+    <div className="academic-card group text-center">
+      {/* Title */}
+      <h3 className="project-title mb-2">{title}</h3>
+
+      {/* Centered logo under title */}
+      {logo && (
+        <div className="flex justify-center mb-4">
           <img 
             src={logo} 
             alt={`${title} logo`} 
-            className="w-13 h-13 object-contain"
+            className="w-13 h-13 object-contain" 
           />
-        )}
-        <h3 className="project-title">{title}</h3>
-      </div>
-      
+        </div>
+      )}
+
       <p className="text-muted-foreground mb-4 leading-relaxed">{description}</p>
       
-      <div className="flex flex-wrap gap-2 mb-6">
+      <div className="flex flex-wrap justify-center gap-2 mb-6">
         {keywords.map((keyword, index) => (
           <span key={index} className="keyword-tag">
             {keyword}
@@ -34,7 +37,7 @@ const ProjectCard = ({ title, description, keywords, codeUrl, pdfUrl, logo }: Pr
         ))}
       </div>
 
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap justify-center gap-3">
         {codeUrl && (
           <a
             href={codeUrl}
