@@ -114,8 +114,7 @@ const Index = () => {
               I am a third-year (master's) student at Ecole Polytechnique with a passion for problem-solving
               and machine learning research, particularly theoretical topics such as
               Statistical Learning Theory, Geometric and Topological Deep Learning, and
-              Training Dynamics. I am also seeking a six-month research internship
-              starting in February 2026 !
+              Training Dynamics. I am currently working on the informational value of data for AI Algorithms with Drs Sébastien Martin and Amine Bennouna (Northwestern University)
             </p>
             <div className="flex flex-wrap justify-center gap-4">
             <a href="#ml-research" className="academic-button-primary bg-white/20 border border-white/30 hover:bg-white/30">
